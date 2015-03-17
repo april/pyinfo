@@ -360,8 +360,8 @@ print """
 <table>
   <th class="h">About pyinfo.py</th>
   <tr class="copyright"><td class="copyright">
-	<p>pyinfo.py is a Python language imitation of PHP's <a href="http://www.php.net/phpinfo">phpinfo()</a> function.  Current version: 1.5.</p>
-	<p>Copyright &copy; 2009 <a href="http://www.twoevils.org">April King</a>; <a href="http://www.twoevils.org/files/pyinfo.txt">source code</a> released under the BSD license.</p></td></tr>
+	<p>pyinfo.py is a Python language imitation of PHP's <a href="http://www.php.net/phpinfo">phpinfo()</a> function.  Current version: 1.6.</p>
+	<p>Copyright &copy; 2008-2015 <a href="http://www.twoevils.org">April King</a>; <a href="http://www.twoevils.org/files/pyinfo.txt">source code</a> released under the BSD license.</p></td></tr>
 </table>
 """
 
