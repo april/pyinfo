@@ -12,6 +12,7 @@ optional_modules_list = [
 'audioop', 'curses', 'imageop', 'aifc', 'sunau', 'wave', 'chunk', 'colorsys', 'rgbimg', 'imghdr', 'sndhdr', 'ossaudiodev', 'sunaudiodev', # multimedia (internal)
 'kdecore', 'OpenGL', 'pygame', 'pyglet', 'pygtk', 'qt', 'PyQt4', 'Tkinter', 'visual', 'wx', # gui toolkits (external)
 'adodbapi', 'cx_Oracle', 'ibm_db', 'mxODBC', 'MySQLdb', 'pgdb', 'PyDO', 'sapdbapi', # databases
+'bs4', 'requests', # things that make the internet less awful
 'cherrypy', 'Crypto', 'django', 'IPython', 'java', 'mod_python', 'mx.DateTime', 'numpy', 'pylons', 'twisted', 'turbogears', 'zope'] # misc external modules
 
 for i in optional_modules_list:
@@ -325,6 +326,7 @@ print_tc_table("Multimedia and User Interfaces (external modules)", table)
 #
 table = []
 
+table += "BeautifulSoup4 Support", imported('bs4', '__version__')
 table += "CherryPy Support", imported('cherrypy', '__version__')
 table += "Crypto Support", imported('Crypto', '__version__')
 table += "Django Support", imported('django')
@@ -334,6 +336,7 @@ table += "mod_python Support", imported('mod_python', 'version')
 table += "mxDateTime Support", imported('mx.DateTime')
 table += "NumPy Support", imported('numpy', 'version')
 table += "Pylons Support", imported('pylons', '__version__')
+table += "Requests Support", imported('requests', '__version__')
 table += "TurboGears Support", imported('turbogears')
 table += "Twisted Support", imported('twisted', '__version__')
 table += "Zope Support", imported('zope')
